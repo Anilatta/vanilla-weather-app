@@ -133,6 +133,7 @@ a {
   font-size: 16px;
   line-height: 20px;
   list-style: none;
+  text-transform: capitalize;
 }
 .Weather li strong {
   color: #f65282;
