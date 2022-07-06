@@ -133,6 +133,11 @@ a {
   font-size: 16px;
   line-height: 20px;
   list-style: none;
+}
+li :first-letter {
+  text-transform: capitalize;
+}
+.description {
   text-transform: capitalize;
 }
 .Weather li strong {
