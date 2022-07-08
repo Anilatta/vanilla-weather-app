@@ -211,3 +211,10 @@ li :first-letter {
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
 }
+.active {
+  color: black;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+}
