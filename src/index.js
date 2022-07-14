@@ -56,10 +56,10 @@ function displayForecast(response) {
                   <div class="forecast-temperature">
                     <span class="forecast-temperature-max">${Math.round(
                       forecastDay.temp.max
-                    )}°C|</span
+                    )}°<small>C</small>|</span
                     ><span class="forecast-temperature-min">${Math.round(
                       forecastDay.temp.min
-                    )}°C</span>
+                    )}°<small>C</small></span>
                   </div>
                 </div>
                 `;
@@ -132,4 +132,4 @@ fahrenheitLink.addEventListener("click", showFahrenheitTemp);
 let celciustLink = document.querySelector("#celcius-link");
 celciustLink.addEventListener("click", showCelciusTemp);
 
-search("New York");
+search("Kyiv");
